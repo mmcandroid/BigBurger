@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@android:color/white">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical"
+    android:weightSum="1.5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/linear"
+        android:weightSum="1.8"
+        android:layout_weight="1"
+
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/titleCommade"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_weight="0.6"
+            android:layout_gravity="center"
+             android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:text="@string/prix"/>
+        <TextView
+            android:id="@+id/prixCommande"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+             />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.4"
+            android:text="@string/quantit"/>
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="0.1"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/plusBtn"
+            android:background="@color/colorAccent"
+            android:text="+"
+            android:layout_weight="0.49"
+
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/moinsBtn"
+            android:background="@color/colorAccent"
+            android:text="-"
+            android:layout_weight="0.49"
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

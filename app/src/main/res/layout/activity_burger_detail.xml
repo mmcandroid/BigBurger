@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_burger_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:contentPadding="5dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    tools:context="com.example.malek.bigburger.ui.activity.BurgerDetail">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+            android:layout_marginTop="5dp"
+         android:id="@+id/imageBuger"/>
+    <TextView
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="13sp"
+         android:id="@+id/titleBurger"/>
+    <TextView
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+        android:id="@+id/description"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/prix"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

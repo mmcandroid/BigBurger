@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BigBurger</string>
+    <string name="prix">Prix :</string>
+    <string name="quantit">Quantité :</string>
+    <string name="catalogue">Catalogue</string>
+    <string name="commande">Commande</string>
+    <string name="choissir">Choisir</string>
+    <string name="supprimer">Supprimer</string>
+</resources>
